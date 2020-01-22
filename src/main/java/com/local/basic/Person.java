@@ -18,13 +18,13 @@ public class Person {
      */
     
     Person() {
-        name = "";
-        yearsOld = 0;
+        this.name = "";
+        this.yearsOld = 0;
     }
     
-    Person (String nameP , int yearsOldP) {
-        name = nameP;
-        yearsOld = yearsOldP;
+    Person (String name , int yearsOld) {
+        this.name = name;
+        this.yearsOld = yearsOld;
     }
     public String getName() {
         return name;
