@@ -16,6 +16,12 @@ public class Person {
     /**
      * Constructor
      */
+    
+    Person() {
+        name = "";
+        yearsOld = 0;
+    }
+    
     Person (String nameP , int yearsOldP) {
         name = nameP;
         yearsOld = yearsOldP;
