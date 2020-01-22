@@ -32,8 +32,6 @@ public class Iterators {
             a += number;
         }
         System.out.println("Valor de la iteracion forEach: "+a+"\n");
-
-        
     }
     
     public static void iWhile() {
